@@ -1,44 +1,7 @@
 @charset "utf-8";
-/* CSS Document */
-*{
-  margin:0px;
-  border:0px;
-  padding:0px;
-}
-body{
-  background:url(../images/bg.png) repeat;
-}
-.margin {
-  margin:20px 0px 0px 40px;
-}
-.fl {
-  float:left;
-}
-.fr{
-  float:right;
-}
-.container {
-  width:1920px;
-}
-.main {
-  width:960px;
-  height:930px;
-  background-image:url(../images/index.png);
-}
-.left{
-  width:480px;
-  height:498px;
-  margin-top:80px;
-  background-image:url(../images/left.png);
-}
-.right{
-  width:480px;
-  height:498px;
-  margin-top:80px;
-  background-image:url(../images/right.png);
-}
-.footer {
-  width:1920px;
-  height:20px;
-  text-align:center;
-}
+
+body { background:url(../images/bg.png) repeat; } /* 这是body背景图片平铺 */
+.wrapper { width: 100% } /* 这样修饰图片就可以适应屏幕分辨率了 */
+.wrap { width: 980px; margin: 0 auto; } /* 这样内容的宽度就固定了 */
+#header{height: 80px;}
+#banner { height: 498px; background:url(../images/banner.png) no-repeat center; } /* 这就是banner背景图片居中显示 */
